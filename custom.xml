@@ -27,6 +27,8 @@
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" revision="lineage-20.0" remote="githuborg" >
     <!-- Add guard for AOSP hardware/qcom directory. -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
   </project>
   <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" revision="lineage-20.0-caf-sdm845" remote="githuborg" />
   <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_sdm845_display" revision="lineage-20.0" remote="githuborg" />
