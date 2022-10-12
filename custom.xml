@@ -20,7 +20,7 @@
 
   <!-- Hardware -->
   <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" revision="lineage-20.0-caf" remote="githuborg" />
-
+  <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" revision="lineage-19.1-caf" remote="githuborg" />
   <!-- This is an hack to circumvent some security policies from Google: put the wlan hal from Qualcomm in hardware/qcom/wlan -->
   <remove-project name="platform/hardware/qcom/wlan" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" revision="lineage-20.0-caf" remote="githuborg" />
